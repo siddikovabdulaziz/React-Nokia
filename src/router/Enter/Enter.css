@@ -1,0 +1,189 @@
+.img {
+  width: 100%;
+  height: 400px;
+  background: url('../../assets/networks-amplifier_0.png.webp') no-repeat center/cover;
+  padding: 10% 10%;
+}
+
+.banner {
+  flex-wrap: wrap;
+}
+
+.text {
+  font-size: 40px;
+  width: 550px;
+  color: blue;
+}
+
+.p {
+  font-size: 10px;
+}
+
+.box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid   red; */
+}
+
+.one {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.one p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.one,
+.two {
+  width: 50%;
+}
+
+.two {
+  padding: 20px 100px;
+  flex-wrap: wrap;
+}
+
+.photo {
+  border-radius: 10px;
+  height: 220px;
+}
+
+.parent {
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  background: rgb(0, 0, 53);
+  padding: 40px 20px;
+  color: white;
+}
+
+.px {
+  margin-top: 20px;
+  width: 700px;
+
+}
+
+.first h3 {
+  margin-top: 15px;
+}
+
+.first {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.box1 img {
+  border-radius: 15px;
+  width: 380px;
+}
+
+.h2 {
+  margin: 40px 20px;
+}
+
+.tashqari {
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* border: 1px solid gray; */
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.h3 {
+  margin-top: 30px;
+}
+
+.footer {
+  width: 90%;
+  height: auto;
+  margin: 5%;
+  height: 500px;
+  /* border: 1px solid red; */
+}
+
+.footer p {
+  color: gray;
+}
+
+.fot__text {
+  width: 100%;
+  display: flex;
+  color: blue;
+  gap: 40px;
+}
+
+.btn {
+  width: 280px;
+  padding: 15px;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background: white;
+}
+
+.stick {
+  position: sticky;
+  top: 70%;
+  left: 100%;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width:990px) {
+  .box {
+    display: block;
+    height: auto;
+  }
+
+  .one,
+  .two {
+    width: 100%;
+  }
+
+  .px {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .img {
+    height: 300px;
+    padding: 20% 15px;
+  }
+
+  .text {
+    width: 400px;
+    font-size: 20px;
+  }
+
+  .two {
+    padding: 20px;
+  }
+
+  .fot__text h3 {
+    font-size: 15px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .stick {
+    display: none;
+  }
+}

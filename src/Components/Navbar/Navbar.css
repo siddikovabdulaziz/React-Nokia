@@ -1,0 +1,122 @@
+.supheader {
+  width: 100%;
+  background: #eaeaea;
+  height: 30px;
+  display: flex;
+  color: rgb(82, 82, 82);
+  gap: 30px;
+  padding-left: 72%;
+  padding-top: 5px;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.nav__collect {
+  margin-top: 10px;
+  margin-left: 100px;
+
+}
+
+.navbar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  display: inline;
+  margin-right: 50px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.icon {
+  margin-top: 5px;
+  margin-left: 15px;
+  display: flex;
+  font-size: 18px;
+  gap: 10px;
+  color: blue;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+
+.logo {
+  width: 100px;
+}
+
+.nav__menu {
+  display: none;
+}
+
+.nav__menu span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: blue;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.kok__nav{
+  width: 100%;
+  height: 40px;
+  background: blue;
+  padding: 10px 17%;
+  color: white;
+}
+.kok__nav ul{
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+}
+.kok__nav li{
+  list-style:  none;
+}
+.icons{
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  /* border: 1px solid red; */
+}
+.icon1{
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 50%;
+  gap: 10px;
+  color: black;
+}
+
+@media screen and (max-width:990px) {
+ .navbar{
+  justify-content: space-between;
+ }
+  .supheader  {
+    display: none;
+  }
+  .nav__collect{
+    display: none;
+  }
+  .icon{
+    display: none;
+  }
+  .nav__menu{
+    display: inline;
+  }
+  .kok__nav{
+    display: none;
+  }
+}

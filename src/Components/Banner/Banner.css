@@ -1,0 +1,11 @@
+.img{
+  width: 100%;
+  height: 400px;
+  background: url('../../assets/networks-amplifier_0.png.webp') no-repeat center/cover;
+  padding: 5%;
+}
+.text{
+  font-size: 40px;
+  width: 550px;
+  color: blue;
+}
